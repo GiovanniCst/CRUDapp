@@ -21,7 +21,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-// ### HANDLERS INIZIO ###
+// ### HANDLERS (ovvero managment delle richieste del client) INIZIO ###
 
 //CRUD - funzione READ (ovvero risposta alla richiesta GET del browser)
 
