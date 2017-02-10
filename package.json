@@ -1,0 +1,28 @@
+{
+  "name": "crudapp",
+  "version": "1.0.0",
+  "description": "A simple CRUD app with Node.js and MongoDb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniCst/CRUDapp.git"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Giovanni J. Costantini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiovanniCst/CRUDapp/issues"
+  },
+  "homepage": "https://github.com/GiovanniCst/CRUDapp#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22"
+  }
+}
