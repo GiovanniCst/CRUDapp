@@ -13,6 +13,14 @@
         <h1>Going on learning</h1>
     </div>
     <div>
+        <form action="/quotes" method="POST">
+            <input type="text" name="name" placeholder="name">
+            <input type="text" name="quote" placeholder="quote in here, please">
+            <button type="submit"> Send </button>
+        </form>
+    </div>
+    <br><br>
+    <div>
         <ul class="quotes">
             <% for(var i = 0; i<quotes.length; i++) {%>
                 <li class="quote">
@@ -22,13 +30,7 @@
             <% } %>
         </ul>
     </div>
-    <div>
-        <form action="/quotes" method="POST">
-            <input type="text" name="name" placeholder="name">
-            <input type="text" name="quote" placeholder="quote in here, please">
-            <button type="submit"> Send </button>
-        </form>
-    </div>
+    
 </body>
 
 </html>
